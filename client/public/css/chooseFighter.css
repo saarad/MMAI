@@ -1,0 +1,123 @@
+@-webkit-keyframes fadeIn { 
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 0.3; }
+    60% { opacity: 0.5; }
+    80% { opacity: 0.9; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 0.3; }
+    60% { opacity: 0.5; }
+    80% { opacity: 0.9; }
+    100% { opacity: 1; }
+  }
+
+  
+  #fighterImage{
+      cursor: pointer;
+  }
+
+  .selectionFighterImage{
+    object-fit: cover;
+    object-position: 120% 0;
+    width: 50px;
+    height:50px;
+    border-radius: 80%;
+    /*background-color: var(--navigation-menu-dark);*/
+  }
+
+  .fighterCard .v-image__image:hover{
+    opacity: 0.65;
+  }
+
+  #unkownFighterImage{
+    cursor: pointer;
+  }
+
+  #unkownFighterImage:hover{
+    opacity: 0.50;
+  }
+
+  #fighterNickName{
+      color:gray;
+  }
+
+  .fighterCard h3, .fighterCard p{
+    text-shadow: 3px 2px 3px rgba(0,0,0,0.9);
+  }
+
+/*
+ *
+ * Athlete Img fade from bottom
+ *
+ */
+
+.item .v-image__image:before {
+  content: '';
+  background-image: linear-gradient(to top, rgb(39, 43, 53), rgb(39, 43, 53,0.001));
+  background-image: -webkit-linear-gradient(to top, #272b35, rgb(39, 43, 53,0.001));
+  background-image: linear-gradient(to top, #272b35, rgb(39, 43, 53,0.001));
+  background-image: -o-linear-gradient(to top, #272b35, rgb(39, 43, 53,0.001));
+  background-image: -moz-linear-gradient(to top, #272b35, rgb(39, 43, 53,0.001));
+  background-image: -webkit-linear-gradient(to top, #272b35, rgb(39, 43, 53,0.001));
+  background-image: -ms-linear-gradient(to top, #272b35, rgb(39, 43, 53,0.001));
+  position: absolute;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.item .v-image__image:after {
+  content: '';
+  display: block;
+  height: 9999px;
+}
+.v-image__image img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+  -ms-interpolation-mode: bicubic;
+}
+
+.fighterImageFighterLibrary{
+  max-width: 250px;
+}
+
+/*
+ *
+ * Media Queries
+ *
+ */
+
+ /* Make sure content has margin when left navigation menu is visible. */
+ @media only screen and (min-width: 960px) {
+    .fighterImageChooseFighter{
+        max-width: 240px;
+    }
+  }
+
+  @media only screen and (min-width: 550px) and (max-width: 959px) {
+    .fighterImageChooseFighter{
+        max-width: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .fighterImageChooseFighter{
+        max-width:145px;
+    }
+  }
+
+
+  @media only screen and (max-width: 959px) {
+    .paddingPredictionSectionOnMd{
+        display:none;
+    }
+  }

@@ -1,0 +1,32 @@
+
+.v-parallax__image-container{
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 10px 10px #272b35 inset;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    transform: scale(1.5);
+}
+
+#contact{
+background-color: var(--main-bg-dark);
+}
+
+.affiliates{
+    cursor: pointer;
+}
+
+.darkText{
+    color: var(--main-bg-dark) !important;
+}
+
+.no-gutters{
+    background-color: rgb(255, 0, 9, .3);
+}
+
+.redTry{
+    color: #e06773;
+    font-size:50px;
+}

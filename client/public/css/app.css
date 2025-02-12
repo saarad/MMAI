@@ -1,0 +1,51 @@
+
+
+/*
+ *
+ * COLORS
+ *
+ */
+
+ :root {
+    --navigation-menu-dark: #1f222a;
+    --navigation-menu-dark-rgb: 31, 34, 42;
+
+    --main-bg-dark:#272b35;
+    --success: #5cb85c;
+    --primary:#0275d8;
+    --info: #5bc0de;
+    --warning: #f0ad4e;
+    --danger: #d9534f;
+    --inverse: #292b2c;
+    --faded: #f7f7f7;
+    --redFighterColor: #cd1616;
+    --blueFightercolor: #196bb3;
+  }
+
+a{
+  text-decoration: none; /* no underline */
+}
+
+/* Sets default background and text color. */
+.background{
+    background-color: var(--main-bg-dark);
+    color: var(--faded);
+  }
+
+.navigationMenuDark{
+    background-color: var(--navigation-menu-dark) !important;
+}
+
+
+/*
+ *
+ * Media Queries
+ *
+ */
+
+/*
+
+.selectionFighterImage{
+  background-color: var(--navigation-menu-dark);
+}
+*/

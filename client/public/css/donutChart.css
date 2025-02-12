@@ -1,0 +1,20 @@
+#donutTitle{
+    padding-left:1.5em;
+    padding-bottom: 1em;
+}
+
+.redFighter{
+   color: #af2029;
+}
+
+.blueFighter{
+    color: #1c62a4;
+}
+
+#donutChart{
+
+}
+
+.cardColor{
+    background-color: #282c38 !important;
+}

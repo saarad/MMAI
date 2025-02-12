@@ -1,0 +1,106 @@
+@-webkit-keyframes slideDown { 
+  0% { padding-top:0; opacity: 0;}
+  100% { padding-top: 10em; opacity: 1; }
+}
+
+@keyframes slideDown {
+  0% { padding-top:0; opacity: 0;}
+  100% { padding-top: 10em; opacity: 1; }
+}
+
+.accuracyCard{
+  cursor:default;
+}
+
+
+.slideDown{
+  animation-name: slideDown;
+  animation-duration: 1.5s; 
+  padding-top: 10em;
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running; 
+}
+
+.affiliate{
+  margin-top:2em;
+  max-width: 150pX;
+  cursor: pointer;
+}
+
+#vsLogo{
+  max-height: 120px;
+  max-width: auto;
+  opacity: 0.5;
+}
+
+#compareFightersStatsMiddleColumn{
+  border-right: solid 1px  var(--navigation-menu-dark);
+  border-left: solid 1px  var(--navigation-menu-dark);
+}
+
+.dividerBetweenFightersInCompareFighters hr{
+  opacity: 100;
+  z-index: 2;
+  background-color: var(--navigation-menu-dark);
+}
+
+.dominantAttribute{
+  color: green;
+}
+
+.dividerWithPadding{
+  padding-bottom: 1em;
+}
+
+.noFightersChosenWhitespace{
+  padding-top: 7em;
+}
+
+
+#predictBtn{
+  background-color:#353b4a;
+}
+
+/*
+ *
+ * Media Queries
+ *
+ */
+
+ /* Make sure content has margin when left navigation menu is visible. */
+ @media only screen and (min-width: 900px) {
+  .dividerBetweenFightersInCompareFighters hr{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .dividerBetweenFightersInCompareFighters img{
+    display:none;
+  }
+  .hideOnMd{
+    display:none;
+  }
+}
+
+ /* Make sure content has margin when left navigation menu is visible. */
+ @media only screen and (min-width: 1350px) {
+  .predictionNormalScreen{
+    visibility: hidden;
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 1349px) {
+  .predictionBigScreen{
+    visibility: hidden;
+  }
+}
+
+.smallFont{
+
+  font-size:12px;
+}

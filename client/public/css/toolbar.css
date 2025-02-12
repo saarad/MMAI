@@ -1,0 +1,23 @@
+
+#toolbartitle{
+    color: #f44336;
+    padding-right: 2em;
+    border-right: 1px solid var(--main-bg-dark);
+  }
+  
+  #toolbartitle:hover{
+    color:  #75201a;
+    cursor: pointer;
+  }
+  
+  .v-toolbar__content a{
+    text-decoration: none; /* no underline */
+  }
+  
+  .v-toolbar__items a{
+    background-color: var(--navigation-menu-dark) !important;
+  }
+  
+  .toolbarLink{
+    padding-left: 1em;
+  }

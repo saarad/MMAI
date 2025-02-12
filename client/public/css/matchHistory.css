@@ -1,0 +1,71 @@
+.matchHistoryFighterImage{
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: var(--navigation-menu-dark);
+  }
+
+  .matchHistoryFighterImageRed:hover{
+    background-color: rgb(255,0,0,0.4);
+    cursor: pointer;
+  }
+
+  .matchHistoryFighterImageBlue:hover{
+    background-color: rgb(0,0,255,0.4);
+    cursor: pointer;
+  }
+
+ .matchHistoryRow.v-responsive__sizer{
+     padding-bottom: 130px !important;
+  }
+
+.matchHistoryRow h3{
+  padding-top: 4em;
+}
+
+.matchHistoryRowGrayText{
+  color: gray;
+}
+  
+  .bottomMatchHistoryRow{
+    border-top: solid 1px  var(--navigation-menu-dark);
+    border-bottom: solid 1px  var(--navigation-menu-dark);
+    background-color: rgb(var(--navigation-menu-dark-rgb), 0.2);
+
+  }
+
+
+  .topMatchHistoryRow{
+    border-top: solid 1px  var(--navigation-menu-dark);
+    background-color: rgb(var(--navigation-menu-dark-rgb), 0.2);
+
+  }
+
+  .matchHistoryRow{
+      padding-bottom: 1em;
+  }
+
+.matchHistoryFighterContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+  /* Centered text */
+.centeredTextOnFighterImage {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-30%, -00%);
+    background-color: rgb(151, 29, 29);
+    color: white;
+    padding: 1px 10px;
+  }
+
+.centeredTextOnFighterImage p{
+    color: black;
+    text-shadow: 2px 1px 1px rgb(255,255,255);
+    transform: translate(-80%, -50%);
+}

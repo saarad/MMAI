@@ -1,0 +1,10 @@
+.yellowTry{
+    color: yellow;
+    background-color: yellow;
+}
+.one-line {
+    overflow: hidden !important; 
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    
+  }

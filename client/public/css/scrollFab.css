@@ -1,0 +1,13 @@
+
+/*
+ *
+ * Media Queries
+ *
+ */
+
+/* Make scroll to top fab is above bottomMenu on mobile */
+@media only screen and (max-width: 960px) {
+    #scroll-to-top-fab{
+        bottom: 7em !important;
+    }
+  }
